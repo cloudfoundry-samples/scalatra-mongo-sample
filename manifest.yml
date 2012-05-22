@@ -1,0 +1,14 @@
+--- 
+applications: 
+  target: 
+    framework: 
+      name: java_web
+      info: 
+        mem: 512M
+        description: Java Web Application
+        exec: 
+    mem: 512M
+    instances: 1
+    services: 
+      message-store: 
+        type: mongodb
